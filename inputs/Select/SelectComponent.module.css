@@ -1,0 +1,48 @@
+.customSelect {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: 0px;
+}
+.minHeight > div {
+    min-height: 54px;
+    border: 1px solid #cae9ff;
+}
+.minHeight > div:hover {
+    min-height: 54px;
+    border: 1px solid #cae9ff;
+}
+.minHeight > input {
+    text-align: center;
+}
+
+.error > div {
+    border: 1px solid red;
+}
+
+.legend {
+    /* position: absolute;
+    top: -10px;
+    left: 46%;
+    z-index: 1;
+    margin: 0px auto;
+    letter-spacing: 1px;
+    background-color: white;
+    font-size: 13px; */
+    z-index: 1;
+    position: absolute;
+    transition: 0.25s ease;
+    font-size: 14px!important;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    top: -12px;
+    color: #000;
+    left: -0px;
+}
+.fieldset {
+    /* position: relative;
+    width: 100%;
+    margin: 0px; */
+    max-height: initial !important;
+}

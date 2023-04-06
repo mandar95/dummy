@@ -1,0 +1,111 @@
+.drop-down-items {
+    /* position: absolute;
+    top: 120%;
+    width: 100%;
+    border: 1px solid #777;
+    border-top: none;
+    border-radius: 5px;
+    max-height: 227px;
+    z-index: 10;
+    background-color: #fff;
+    overflow-y: auto;
+    font-size: 14px; */
+
+
+    position: absolute;
+    top: 124%;
+    border: 1px solid #d0c9c9;
+    max-height: 227px;
+    z-index: 10;
+    background-color: #fff;
+    font-size: 14px;
+    width: 107%;
+    left:-10px;
+   
+}
+.drop-down-items__no-results {
+    font-size: 14px;
+    font-family: 'basier_squarebold';
+    padding: 0.3rem;
+    color: #000;
+    background: #f5f5f5;
+    margin: 10px 5px 60px 5px;
+    white-space: nowrap;
+}
+.drop-down-items__overflow {
+    max-height: 139px;
+    overflow: auto;
+}
+.drop-down-items__item {
+    background-color: #fff;
+    border-top: 1px solid #e0dcdc;
+    font-size: 12px;
+}
+.drop-down-items__item, .drop-down-items__item--selected {
+    width: 100%;
+    padding: 9px 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+.drop-down-items__item--selected {
+    color: #fff;
+    /* background-color: #004b83; */
+    background-color: #107591;
+}
+.drop-down-items__item--selected:hover {
+    background-color:#107591;
+    color: #fff;
+}
+.drop-down-items__item--not-allowed {
+    width: 100%;
+    padding: 4px 2px;
+    cursor: not-allowed;
+}
+.drop-down-items__item:hover {
+    background-color: #107591;
+    color: #fff;
+}
+.drop-down-items__search {
+    padding: 5px 5px 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.drop-down-items__search input {
+    height: 30px;
+    padding-left: 8px;
+    background-position: right 1.4rem top 50%, 0 0;
+    color: #131212;
+    font-size: 13px;
+    background-size: 1.9rem;
+}
+.drop-down-items__search input:focus {
+    /* outline-offset: -2px;
+    outline: 1px auto #111;
+    box-shadow: none; */
+    outline:none
+}
+@media (max-width: 768px) {
+    .drop-down-items__search input:focus {
+        /* outline-offset: -2px;
+        outline: 1px auto #e59700; */
+        outline:none
+   }
+   .drop-down-items__item{
+    color:#444;
+}
+}
+
+.drop-down-items__overflow::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+.drop-down-items__overflow::-webkit-scrollbar-thumb {
+    background: #a2a2a2;
+    border-radius: 30px;
+}
+.drop-down-items__overflow::-webkit-scrollbar-track {
+    height: 420px;
+    width: 200px;
+    background: #cecccc;  
+}

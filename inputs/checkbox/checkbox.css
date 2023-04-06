@@ -1,0 +1,190 @@
+.form-group {
+  margin-bottom: 30px;
+  position: relative;
+  min-width: 215px;
+  max-height: 54px;
+  margin: 1rem;
+}
+
+/* input */ /* cursor: text; maybe to test state or on active  */
+input {
+  box-sizing: border-box;
+  width: 100%;
+  color: #000;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid #cae9ff;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 0em;
+  padding: 1px 0px;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-input:focus,
+input:focus {
+  outline: 0;
+  border-color: #80bdff;
+}
+
+/*-------------  placeholder  start----------------- */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+  color: grey;
+  letter-spacing: 1px;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 12px;
+  color: grey;
+  letter-spacing: 1px;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 12px;
+  color: grey;
+  letter-spacing: 1px;
+}
+
+.form-label {
+  position: absolute;
+  transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -webkit-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  -ms-transition: 0.25s ease;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  top: -12px;
+  font-size: 5px;
+  color: #000;
+  text-align: center;
+  left: -0px;
+}
+
+/* globel */
+.span-label {
+  background: #fff;
+  padding: 2px 4px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #606060;
+  left: 5px;
+  margin-bottom: 6px;
+}
+/*-------------label  end ----------------- */
+
+/*-------------check box  start----------------- */
+.custom-control-checkbox {
+  position: relative;
+  display: block;
+  min-height: 54px;
+  padding: 0px 1.5rem;
+}
+
+/* check-box */
+.border-enroll {
+  border: 1px solid #cae9ff;
+  box-sizing: border-box;
+  max-height: 52px;
+  margin: 1rem 0 0 0;
+  border-radius: 4px;
+}
+/* checkbox */
+.border-enroll {
+  background-color: transparent;
+}
+
+.border-enroll:active {
+  border: 1px solid #9fc6e2;
+}
+.custom-control-label-check {
+  color: #000 !important;
+  font-size: 12px;
+  /* in test */
+  margin-top: 12px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+/* The check box final */
+.container-check {
+  position: relative;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: rgb(131, 109, 109) !important;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Hide default checkbox */
+.container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/*  pink checkbox */
+.checkmark-check {
+  position: absolute;
+  left: -6px;
+  top: -2px;
+  height: 23px;
+  width: 23px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* On hover */
+.container-check:hover input ~ .checkmark-check {
+  background-color: rgb(204, 198, 198);
+  transition: all 0.2s;
+}
+
+/* on  checked  */
+.container-check input:checked ~ .checkmark-check {
+  background-color: #1ad2a4 !important;
+}
+
+/* hidden when not checked*/
+.checkmark-check:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+
+.container-check input:checked ~ .checkmark-check:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator icon plus */
+.container-check .checkmark-check:after {
+  left: 8px;
+  top: 4px;
+  width: 7px;
+  height: 13px;
+  transition: all 1s;
+  border: solid rgb(255, 255, 255);
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*-------------check box  end  ----------------- */

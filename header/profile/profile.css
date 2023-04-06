@@ -1,0 +1,32 @@
+.removeNotifiction{
+    animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  0%   {margin-left: 0px;}
+  100% {margin-left: -295px;}
+}
+
+@media (max-width: 920px) {
+  #google_translate_element{
+    display: none;
+  }  
+}
+
+/* .goog-logo-link {
+  display:none !important;
+} 
+
+.goog-te-gadget{
+  color: transparent !important;
+} */
+
+/* .google_translate_element_delete{
+  border-radius: 50%;
+  position: absolute;
+  left: 143px;
+  top: 7px;
+  font-size: 15px;
+  transform: rotateZ(180deg);
+  cursor: pointer;
+} */

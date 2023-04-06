@@ -1,0 +1,190 @@
+ /* On screens that are less than 700px wide, make the sidebar into a topbar */
+ @media screen and (max-width: 700px) {
+    .sidebar-wrapper {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  }
+
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar-wrapper a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
+  /* font-size: 11.7px; */
+/* .metismenu {
+	background: transparent;
+}
+
+.metismenu::after {
+	box-shadow: none;
+}
+
+.metismenu-link {
+	color: #2b1d55;
+    font-size: 12.5px;
+	text-transform: capitalize;
+    letter-spacing: .07rem;
+    
+	border-bottom: 1px solid #ddd;
+	height: 52px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.metismenu-container>.metismenu-item>.metismenu-link {
+	border: 0;
+}
+
+.metismenu-container.visible {
+	padding: 0;
+	box-shadow: none;
+}
+
+.metismenu-container.visible>.metismenu-item>.metismenu-link {
+	display: flex;
+	align-items: center;
+	height: 52px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.metismenu-container>.metismenu-item>.metismenu-link >.metismenu-icon{
+	color: #0581FC;
+}
+
+.metismenu-link:hover,
+.metismenu-link.active {
+    color: #2b1d55;
+    background: -webkit-linear-gradient(left,#d2f7f2 0,#fff 100%);
+    background: linear-gradient(to right,#d2dcf7 0,#fff 100%);
+    letter-spacing: .07rem;
+    text-transform: capitalize;
+    
+	border-bottom: 1px solid #ddd;
+	text-decoration: none;
+}
+
+.metismenu-state-icon {
+    margin-left: auto;
+}
+
+.metismenu-container.visible>.metismenu-state-icon.fa-caret-left:before{
+	content: '\f106';
+    font-family: fontawesome;
+    right: 15px;
+    top: 12px;
+    color: #0581FC;
+    font-size: 20px;
+}
+
+.metismenu-state-icon.fa-caret-left:before {
+    content: '\f107';
+    font-family: fontawesome;
+    right: 15px;
+    top: 12px;
+    color: #0581FC;
+    font-size: 20px;
+} */
+/* color: #8d97ad; */
+/* color: #8d97ad; */
+
+/* .metismenu >li >a {
+	padding-left: 15px!important;
+	text-decoration: none;
+}
+.metismenu li a {
+    position: relative;
+    display: block;
+    color: #2b1d55;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 15px 15px;
+    letter-spacing: 0;
+    
+    letter-spacing: .07rem;
+    text-transform: capitalize;
+    
+    border-bottom: 1px solid #ddd;
+	display: flex;
+	text-decoration: none;
+}
+
+.metismenu li a i {
+    color: #2b1d55;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.metismenu li a:after {
+    position: absolute;
+    content: '\f107';
+    font-family: fontawesome;
+    right: 15px;
+    top: 12px;
+    color: #8d97ad;
+    font-size: 20px;
+}
+
+.metismenu li.active>a:after {
+    content: '\f106';
+}
+
+.metismenu li a:only-child:after {
+    content: '';
+}
+
+.metismenu li a span {
+    margin-left: 10px;
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.metismenu li.active>a,
+.metismenu li:hover>a {
+    color: #fff;
+}
+
+.metismenu li li a {
+    padding: 13px 13px;
+}
+
+.metismenu li ul {
+    padding-left: 22px;
+}
+
+.metismenu >li:hover>a,
+.metismenu >li.active>a {
+    color: #2b1d55;
+    background: #fff;
+}
+
+.metismenu li:hover>a,
+.metismenu li.active>a {
+    color: #2b1d55;
+    background: -webkit-linear-gradient(left,#d2f7f2 0,#fff 100%);
+    background: linear-gradient(to right,#d2f7f2 0,#fff 100%);
+    letter-spacing: .07rem;
+    text-transform: capitalize;
+    
+    border-bottom: 1px solid #ddd;
+}
+
+.metismenu li:hover>a i,
+.metismenu li.active>a i {
+    color: #6a56a5;
+}
+
+.metismenu li li a:after {
+    top: 6px;
+} */
