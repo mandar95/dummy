@@ -1,0 +1,81 @@
+/* type 1 card start */
+.cardBody {
+    background-color: white;
+    /* border-radius: 10px;
+    border: 1px solid lightgrey; */
+    border-right: 1px solid lightgrey;
+    padding: 1px 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* box-shadow: 0px 5px 5px lightgrey; */
+    width: 100%;
+}
+.cardBody:hover {
+    cursor: pointer;
+}
+.iconBox {
+    border-radius: 50%;
+    background-color: blue;
+    padding: 5px;
+}
+.bgYellow {
+    background-color: #fbb541;
+}
+.bgSkyblue {
+    background-color: #00c1ff;
+}
+.bgPurple {
+    background-color: #8820cf;
+}
+.bgDarkpink {
+    background-color: #ff00ff;
+}
+.bgGreen {
+    background-color: #00c87b;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.textBox {
+    margin: 0px 10px;
+    width: 100%;
+}
+.text {
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    font-size: 11px;
+}
+.title {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    margin-left: 0px;
+}
+.customSelect {
+    margin: 0px;
+    margin-left: 2px;
+    padding: 0px;
+    width: 100%;
+    border: 0px;
+}
+.filterIconBox {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0px 2px;
+    margin: 0px 5px;
+}
+.filterIconBox:hover {
+    cursor: pointer;
+}
+.filterIcon {
+    margin: 3px 5px;
+    height: 15px;
+}
+/* type 1 card end */

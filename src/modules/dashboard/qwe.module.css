@@ -1,0 +1,148 @@
+.grayBack {
+  background: #f5f9fc;
+}
+.redBack {
+  background: #fffdf1;
+}
+.yellowBack {
+  background: #ffc201;
+}
+.redColorText {
+  color: #f3aeaf;
+}
+.darkGray {
+  color: #e0e0e0;
+}
+.divBorder {
+  border-radius: 30px;
+}
+.divBorder2 {
+  border-radius: 15px;
+}
+.borderdashed {
+  border-bottom: 2px dashed rgb(218, 218, 218, 0.4);
+}
+.borderdashedright {
+  border-right: 2px dashed rgb(218, 218, 218, 0.4);
+}
+.buttonborder {
+  border: 1px dashed yellow;
+  background: #fffec8;
+  font-size: 10px;
+  
+}
+.buttonborder:hover {
+  background: #FFCC1D;
+}
+.cardDiv {
+  position: relative;   
+  overflow: hidden;
+  margin-top: 50px;
+  /* box-shadow: 2px 10px 15px pink; */
+}
+.buttonCartDiv {
+  position: absolute;
+  bottom: 0px;
+  right: -1px;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px 0px 0px 0px;
+}
+.textBolder {
+  
+}
+.rootCard {
+  position: relative;
+  /* box-shadow: 2px 2px 10px pink; */
+}
+.compareDiv {
+  position: absolute;
+  cursor: pointer;
+  top: -40px;
+  right: 50px;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px 30px 0px 0px;
+  border: 1px dashed gray;
+  background: lightgray;
+}
+.productfeaturesShowOnBigScreen {
+  display: flex;
+}
+.productfeaturesHideAndShow {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .buttonCartDiv {
+    position: absolute;
+    bottom: 0px;
+    right: -1px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px 0px 0px 0px;
+  }
+  .productfeaturesShowOnBigScreen {
+    display: none;
+  }
+  .productfeaturesHideAndShow {
+    display: block;
+  }
+  .borderdashedright {
+    border-right: 0px;
+  }
+  .card2 {
+    background: #ffd500;
+    padding: 2px 10px 2px 10px;
+    position: absolute;
+    
+    font-size: 12px;
+    letter-spacing: 1px;
+    top: -10px;
+    right: -25px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px 0px 0px 0px;
+  }
+  
+.longText {
+  font-size: 12px;
+  min-height: 50px;
+}
+}
+
+.productfeaturebutton {
+  background: #ff3c46;
+  color: snow;
+  font-size: 12px;
+  letter-spacing: 1px;
+  
+  padding: 4px 10px;
+  margin-left: 15px;
+  border-radius: 30px;
+}
+.productfeaturebutton:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.cardDiv2 {
+  position: relative;
+  overflow: hidden;
+}
+.card2 {
+  background: #ffd500;
+  padding: 2px 10px 2px 10px;
+  position: absolute;
+  
+  font-size: 12px;
+  letter-spacing: 1px;
+  top: -20px;
+  right: -25px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px 0px 0px 0px;
+}
+.longText {
+  font-size: 15px;
+  min-height: 50px;
+}

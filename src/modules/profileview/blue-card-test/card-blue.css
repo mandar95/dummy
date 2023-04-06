@@ -1,0 +1,111 @@
+.card-blue {
+    width: auto;
+    /* in test */
+    margin: 2rem 0px;
+}
+
+
+.children-blue {
+    box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+}
+
+::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.block-blue{
+    padding: 0 !important;
+    flex: 0 0 75%;
+    max-width: 120%;
+}
+
+
+.row-blue {
+    padding: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    border: none;
+    border-radius:32px;
+    background-color: #fff;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 10px 15px 6px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* width: 60%; */
+}
+
+.containerblue2 {
+    box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    overflow: none!important;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+
+ .header-blue {
+    margin-top: -5px;
+}}
+
+@media (max-width: 767px) {header-blue {
+    margin-top: -5px;
+}
+}
+
+.header-blue {
+    margin-top: -16px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 2rem;
+}
+
+.header-blue .icon-blue {
+    font-size: 32px;
+    color: #fff;
+    background: #000;
+    height: 40px;
+    width: 40px;
+    text-align: right;
+    position: absolute;
+    left: -18px;
+    top: -40px;
+    border-radius:50%;
+    background-color: #6334e3;
+}
+
+.bottom-header-blue {
+    border-bottom: 1.5px dotted #d0ff37;
+    margin-right: 0%;
+    height: 1px;
+    margin-left: 0%;
+    width: inherit;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
+
+@media (min-width: 768px) {
+    .input-box-style {
+        -webkit-box-flex: 0;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.input-box-style {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 18px;
+    padding-left: 18px;
+}

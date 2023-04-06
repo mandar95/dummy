@@ -1,0 +1,12 @@
+
+
+.tabsC {
+  border-top: 0.2px solid #ccccff;
+  padding-top: 20px;
+}
+
+.nav-link.active {
+    color: var(--tabColor) !important;
+    background-color: var(--tabBgColor) !important;
+    border-color: var(--tabBorderColor) !important;
+}

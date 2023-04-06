@@ -1,0 +1,12 @@
+.ck.ck-editor__editable_inline{
+    height: 300px !important;
+    border: 1px solid #d4d4d4;
+}
+
+/* .ck-file-dialog-button{
+    display: none;
+} */
+
+div.ck-file-dialog-button ~ div:nth-child(2){
+    display: none;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "label": "First Name",
+    "placeholder": "Enter First Name",
+    "type": "text",
+    "name": "first_name",
+    "required": false,
+    "pattern": "/[a-zA-Z]+/"
+  },
+  {
+    "label": "Last Name",
+    "placeholder": "Enter Last Name",
+    "type": "text",
+    "name": "last_name",
+    "required": false,
+    "pattern": "/[a-zA-Z]+/"
+  },
+  {
+    "label": "Date of Birth",
+    "placeholder": "",
+    "type": "date",
+    "name": "dob",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Date of Marriage",
+    "placeholder": "",
+    "type": "date",
+    "name": "dom",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Email Id",
+    "placeholder": "Enter Email Id",
+    "type": "text",
+    "name": "member_email",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Contact",
+    "placeholder": "Enter Contact",
+    "type": "number",
+    "name": "member_mob_no",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Building / Flat",
+    "placeholder": "Enter Building / Flat",
+    "type": "text",
+    "name": "buildingflat",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Location",
+    "placeholder": "Enter Location",
+    "type": "text",
+    "name": "location",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Street",
+    "placeholder": "Enter Street",
+    "type": "text",
+    "name": "street",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "Pincode",
+    "placeholder": "Enter Pincode",
+    "type": "number",
+    "name": "pincode",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "City",
+    "placeholder": "Enter City",
+    "type": "text",
+    "name": "city",
+    "required": false,
+    "pattern": ""
+  },
+  {
+    "label": "State",
+    "placeholder": "Enter State",
+    "type": "text",
+    "name": "state",
+    "required": false,
+    "pattern": ""
+  }
+]

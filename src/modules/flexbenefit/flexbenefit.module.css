@@ -1,0 +1,23 @@
+.box_xircle{
+  background-color: #f7f7f7;
+  border: 1px solid #afafaf;
+  border-radius: 7px;
+  margin-bottom: 8px;
+}
+
+.box_xircle:last-child{
+  margin-bottom: 0;
+}
+
+.minus_4_margin{
+  margin-left: -4px;
+}
+
+.selected_suminsured{
+  border: 3px solid #59b6ff;
+  max-width: fit-content;
+  border-radius: 8px;
+  padding-right: 37px;
+  padding-bottom: 4px;
+  margin-left: -3px;
+}

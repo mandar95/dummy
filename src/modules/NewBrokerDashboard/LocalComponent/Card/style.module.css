@@ -1,0 +1,92 @@
+/* Card style start */
+.container {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 15px #e0e0e0;
+    margin: 10px;
+}
+.containerWithoutShadow {
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+.headerWithoutBorder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+.titleBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.blueBox {
+    border-radius: 30px;
+    width: 10px;
+    height: 30px;
+    background-color: blue;
+}
+.title {
+    margin: 0px 10px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.filterIconBox {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0px 2px;
+}
+.filterIconBox:hover {
+    cursor: pointer;
+}
+.filterIconBox:hover .filterDropDown {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 120px;
+    right: 0px;
+    background-color: white;
+    z-index: 9999;
+    box-shadow: 1px 1px 5px lightgrey;
+}
+.filterDropDown {
+    display: none;
+    cursor: pointer;
+    width: 120px;
+    /* left: -80px;
+    bottom: 0; */
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 5px lightgrey;
+}
+.filterOptionText {
+    margin: 2px;
+    padding: 0px 8px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.filterOptionText:hover {
+    background-color: aliceblue;
+}
+.filterIcon {
+    margin: 3px 5px;
+    height: 15px;
+}
+.body {
+    max-width: 100%;
+    min-height: auto;
+    padding: 5px 15px;
+}
+/* Card Style End */

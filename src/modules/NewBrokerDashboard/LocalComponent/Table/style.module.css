@@ -1,0 +1,55 @@
+.outerContainer {
+    width: 100%;
+}
+.tableContainer {
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+}
+.trstyle {
+    background-color: #f6f8fb;
+    border-radius: 20px;
+}
+.th, .td {
+    text-align: center;
+    padding: 10px 0px;
+    min-width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+.th {
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+.td {
+    border-bottom: 1px solid lightgrey;
+    font-weight: bold;
+    font-size: 12px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 0px;
+}
+.arrow {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+.arrow:hover {
+    cursor: pointer;
+}
+.disablearrow {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: grey;
+}
+.page {
+    margin: 0px 10px;
+}

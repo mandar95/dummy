@@ -1,0 +1,252 @@
+/* type 1 card start */
+.cardBody {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 5px 20px #e0e0e0;
+    width: 100%;
+}
+.cardBody:hover {
+    cursor: pointer;
+}
+.iconBox {
+    border-radius: 50%;
+    background-color: blue;
+    padding: 5px;
+}
+.bgYellow {
+    background-color: #fbb541;
+}
+.bgSkyblue {
+    background-color: #00c1ff;
+}
+.bgPurple {
+    background-color: #8820cf;
+}
+.bgDarkpink {
+    background-color: #ff00ff;
+}
+.bgGreen {
+    background-color: #00c87b;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.textBox {
+    margin: 0px 10px;
+}
+.text {
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    font-size: 11px;
+}
+.title {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+/* type 1 card end */
+
+/* type 2 card start */
+
+.cardBodytype2 {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* box-shadow: 1px 1px 10px rgb(211, 211, 211); */
+}
+.cardBodytype2:hover {
+    cursor: pointer;
+    box-shadow: 1px 10px 20px lightgray;
+}
+.cardBodytype2:hover .iconBoxtype2 {
+    background-color: rgb(126, 220, 243);
+}
+.cardBodytype2:hover .icontexttype2 {
+    color: white;
+}
+.textBoxtype2 {
+    margin: 0px;
+}
+.texttype2 {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+.titletype2 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgb(78, 77, 77);
+}
+.iconBoxtype2 {
+    width: 45px;
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48%;
+    background-color: lightgrey;
+    padding: 0px 5px;
+    margin: 0px 2px;
+}
+.icontexttype2 {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(53, 52, 52);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* type 2 card end */
+
+/* type 3 card start */
+
+.cardBodytype3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(223, 221, 221);
+}
+.texttype3 {
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    font-size: 16px;
+}
+.titletype3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+}
+
+.iconBoxtype3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icontype3 {
+    width: 50px;
+    height: 50px;
+}
+
+/* type 3 card end */
+
+/* type 4 card start */
+
+.cardBodytype4 {
+    border-radius: 20px;
+    padding: 1px 5px;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.iconBoxtype4 {
+    border-radius: 50%;
+    /* padding: 15px; */
+}
+.icontype4 {
+    width: 50px;
+    height: 50px;
+}
+.textBoxtype4 {
+    margin: 0px 15px;
+}
+.texttype4 {
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    /* font-size: 12px; */
+}
+.titletype4 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* type 4 card end */
+
+/* policy card start */
+
+.policyCardContainer {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px 5px;
+    margin: 10px 0px;
+    box-shadow: 0px 1px 2px lightgrey;
+}
+.policyTitle {
+    margin: 0px 0px 2px 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(55, 203, 240);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.divWidth {
+  max-width: 300px;
+  height: auto;
+}
+.policyChips {
+    background-color: rgb(240, 240, 240);
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+.policyChipsSmallText {
+    font-size: 10px;
+    font-weight: bold;
+}
+.policyColumnTitle {
+    margin: 0px 0px 2px 0px;
+    padding: 0px;
+}
+.policyColumnText {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.policyColumnSmallText {
+    margin-left: 2px;
+    font-size: 8px;
+    font-weight: bold;
+}
+/* policy card end */

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+  .rowButton {
+    display: flex;
+    padding-left: 0 !important;
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+    max-width:400px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .rowButton {
+      display: flex;
+      padding-left: 0 !important;
+      max-width:400px;
+      width:95%;
+    }
+  }
+  .col-button {
+    margin-left: 0 !important;
+  }
+}
+
+.rowButton {
+  margin-right: -28px !important;
+  margin-left: -28px !important;
+}

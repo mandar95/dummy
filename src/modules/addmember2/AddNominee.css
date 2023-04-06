@@ -1,0 +1,196 @@
+.CardContainer5 {
+  display: flex;
+  box-shadow: 1px 1px 15px rgba(179, 179, 179, 0.5);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  border-radius: 35px;
+  background-color: #fff;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 99%;
+}
+.cardContent5 {
+  padding: 1.6rem;
+  flex: 1 1 auto;
+}
+
+.row5 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  .headerContainer5 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.headerContainer5 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.headerArea5 {
+  margin-top: -16px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 24px;
+}
+
+.symbol-ic5 {
+  font-size: 32px;
+  color: #fff;
+  background: #000;
+  height: 40px;
+  width: 40px;
+  text-align: right;
+  position: absolute;
+  left: -14px;
+  top: -28px;
+  border-radius: 100px;
+  background-color: #6334e3;
+}
+
+.H-bottomline5 {
+  border-bottom: 1px dashed #d0ff37;
+  width: 100%;
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .contentBox5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.contentBox5 {
+  margin-top: 1.5rem !important;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1296.97px;
+}
+@media only screen and (max-width: 600px) {
+  .buttons5 {
+    float: right;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .button6 {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+}
+
+.buttons5 {
+  float: right;
+  padding-top: 10px;
+}
+
+.button6 {
+  margin-left: -10px;
+  margin-right: 13px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 0.2px solid #ccccff;
+  margin-left:10px;
+}
+@media only screen and (max-width: 600px) {
+  .info-container {
+    display: block;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 0.2px solid #ccccff;
+    margin-left:10px;
+  }
+}
+.button-container {
+  padding-bottom: 10px;
+  border-bottom: 0.2px solid #ccccff;
+  margin-top:10px;
+  padding-left:10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-container {
+    margin-left: 10px;
+    padding-bottom: 20px;
+    border-bottom: 0.2px solid #ccccff;
+  }
+}
+
+.SelectEmployer {
+  width: 100%;
+  border-bottom: 0.2px solid #ccccff;
+  padding-bottom: 10px;
+  max-width: 1296.97px;
+  margin-left: 10px;
+}
+
+.inputElement {
+  padding:5px
+}
+.labelBox {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.label8 {
+  color: #c43184;
+  
+  font-size: 15px;
+}
+.SecondInoutBox {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left:10px;
+}
+@media only screen and (max-width: 600px) {
+  .col-md-3 {
+    position: relative;
+    width: 100%;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    margin-left:10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SecondInoutBox {
+    padding-bottom: 10px;
+    display: block;
+
+    flex-wrap: wrap;
+  }
+}
+
+.Inputspacer {
+  padding-left:10px;
+  padding-right:10px;
+}

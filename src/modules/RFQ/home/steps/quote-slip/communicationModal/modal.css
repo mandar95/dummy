@@ -1,0 +1,9 @@
+.my-modal2{
+    max-width:550px !important;
+    margin: 65px auto !important;
+}
+
+.my-modal2 > .modal-content{
+    border-radius: 30px !important;
+    border: none !important;
+}

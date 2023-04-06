@@ -1,0 +1,34 @@
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    margin: -28px 0 0 -9px;
+border: 1px double #2400ff;
+border-radius: 30px;
+background-color: #d2ff12;
+color: #3b00a5;
+font-size: 1rem;
+
+padding: 10px 20px;
+
+}
+.absolute2 {
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    margin: -28px 0 0 -9px;
+/* border: 1px double #2400ff; */
+border-radius: 30px;
+/* background-color: #d2ff12;
+color: #3b00a5; */
+font-size: 1rem;
+
+padding: 10px 20px;
+cursor: pointer;
+}
+.borderDiv {
+    border-radius: 20px;
+}

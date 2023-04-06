@@ -1,0 +1,461 @@
+/* outer structure start */
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -20px;
+}
+
+.main {
+    flex: 75%;
+    padding: 0px 20px;
+}
+
+.sideBar {
+    flex: 25%;
+}
+
+/* outer structure end */
+
+/* header start */
+.header {
+    /* border-bottom: 1px solid lightgrey; */
+    padding: 0px 8px;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+/* header end */
+
+/* globalFilterContainer start */
+
+.globalFilterContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow: auto;
+    white-space: nowrap;
+    background-color: white;
+    border-radius: 10px;
+    margin: 6px 10px;
+    box-shadow: 0px 5px 20px #d7d7d7;
+}
+
+.globalFilterContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.globalFilterBox {
+    width: 18%;
+    /* margin: 0px 9px; */
+    margin-right: 9px;
+}
+.globalFilterBox2 {
+    width: 9%;
+    /* margin: 0px 9px; */
+}
+.globalFilterBox3 {
+    width: 18%;
+    /* margin: 0px 9px; */
+}
+
+.filterIconBox {
+    display: none;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0px 2px;
+}
+.filterIconBox:hover {
+    cursor: pointer;
+}
+.filterIcon {
+    margin: 3px 5px;
+    height: 15px;
+}
+/* globalFilterContainer end */
+
+/* cardType1Container start */
+
+.cardType1Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+    overflow: auto;
+    white-space: nowrap;
+    min-height: 87px;
+}
+
+.cardType1Container::-webkit-scrollbar {
+    display: none;
+}
+
+.cardType1 {
+    width: 18%;
+    margin: 0px 9px;
+}
+
+/* cardType1Container end */
+
+/* enrolmentEndorsementContainer start */
+
+.enrolmentEndorsementContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.enrolmentContainer {
+    flex: 40%;
+}
+
+.enrolmentContainerInner {
+    padding: 0px 5px;
+    max-height: 225px;
+    min-height: 225px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.enrolmentContainerInner::-webkit-scrollbar {
+    display: none;
+}
+
+.endorsementContainer {
+    flex: 60%;
+}
+
+/* enrolmentEndorsementContainer end */
+
+
+/* claimsGraphAndTableContainer start */
+
+.claimsGraphAndTableContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.claimsGraphContainer {
+    flex: 50%;
+}
+
+.graph {
+    height: 300px;
+}
+
+.claimsTableContainer {
+    flex: 50%;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+/* claimsGraphAndTableContainer end */
+
+/* sidebar start */
+
+.sideBar {
+    background-color: white;
+    height: 100%;
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* box-shadow: 0px 15px 10px lightgrey; */
+    box-shadow: 0px 10px 10px rgb(240, 239, 239);
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.mapInnerContainer {
+    width: 200px;
+}
+
+.stateDetails {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.stateDetailsModal {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+.mapSpan {
+    font-size: 10px;
+    display: block;
+}
+
+.mapZoom {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.mapZoom:hover {
+    cursor: pointer;
+}
+
+.queryCommunicationContainer {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.queryContainer {
+    margin-top: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.queryStatus {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.communicationHeight {
+    /* min-height: 250px; */
+    max-height: 246px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.communicationHeight::-webkit-scrollbar {
+    display: none;
+}
+
+.communicationBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.commTextCon {
+    width: 90%;
+}
+
+.commText {
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+}
+
+.commTitle {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+/* side bar end */
+
+/* policy section start */
+.policyContainer {
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+/* policy section end */
+
+/* media query */
+/* tablet */
+@media screen and (max-width: 1300px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .main {
+        flex: 100%;
+        padding: 0px 20px;
+    }
+
+    .sideBar {
+        flex: 100%;
+        width: 100%;
+        border-left: 0px solid lightgrey;
+    }
+
+    .filterIconBox {
+        display: block;
+    }
+    
+    .globalFilterContainer {
+        display: none;
+    }
+
+    .cardType1Container {
+        justify-content: flex-start;
+        min-height: 0px;
+    }
+
+    .cardType1 {
+        width: 100%;
+    }
+
+    .enrolmentEndorsementContainer {
+        flex-direction: row;
+    }
+
+    .enrolmentContainer {
+        flex: 40%;
+        /* width: 100%; */
+    }
+
+    .endorsementContainer {
+        flex: 60%;
+        /* width: 100%; */
+    }
+
+    .claimsGraphAndTableContainer {
+        flex-direction: row;
+    }
+
+    .claimsGraphContainer {
+        flex: 50%;
+    }
+
+    .claimsTableContainer {
+        flex: 50%;
+    }
+
+    .sideBar {
+        flex-direction: row;
+    }
+
+    .queryCommunicationContainer {
+        flex-direction: row;
+    }
+
+    .mapInnerContainer {
+        width: 80%;
+    }
+
+    .queryContainer {
+        flex: 50%;
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .communicationContainer {
+        flex: 50%;
+        width: 50%;
+    }
+    .communicationHeight {
+        max-height: 250px;
+    }
+    /* policy section start */
+    .policyContainer {
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+    /* policy section end */
+}
+
+/* mobile */
+@media screen and (max-width: 765px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .main {
+        flex: 100%;
+        padding: 0px 20px;
+    }
+
+    .sideBar {
+        flex: 100%;
+        width: 100%;
+        border-left: 0px solid lightgrey;
+    }
+
+    .cardType1 {
+        width: 100%;
+    }
+
+    .enrolmentEndorsementContainer {
+        flex-direction: column;
+    }
+
+    .enrolmentContainer {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .endorsementContainer {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .claimsGraphAndTableContainer {
+        flex-direction: column;
+    }
+
+    .claimsGraphContainer {
+        flex: 100%;
+    }
+
+    .claimsTableContainer {
+        flex: 100%;
+    }
+
+    /* .mapContainer {
+        flex: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        box-shadow: 0px 15px 10px lightgrey;
+        margin: 10px 0px;
+        border-radius: 20px;
+        position: relative;
+    } */
+    .queryCommunicationContainer {
+        flex-direction: column;
+    }
+
+    .mapInnerContainer {
+        width: 80%;
+    }
+
+    .queryContainer {
+        flex: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .communicationContainer {
+        flex: 100%;
+        width: 100%;
+    }
+}

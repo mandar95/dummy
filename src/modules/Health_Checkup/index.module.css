@@ -1,0 +1,117 @@
+.redColor {
+    color: #e11a22;
+    /* font-size: 18px; */
+    
+}
+.redColorCross {
+    color: #e11a22;
+    font-size: 18px;
+    
+}
+.redColorCross:hover {
+    cursor: pointer;
+    color: black;
+}
+/* .redColor:hover {
+    cursor: pointer;
+    color: black;
+} */
+.letterSpacing {
+    letter-spacing: 1px;
+}
+.fontSizeCard {
+    font-size: 18px;
+    
+}
+.borderDashed {
+    border-bottom: 1px dashed lightgray;
+}
+.pinkBack {
+    background: #fff3f4;
+  }
+.borderRadius {
+    border-radius: 10px;
+}
+.borderDashedTop {
+    border-top: 1px dashed lightgray;
+}
+.bigButton {
+    display: block;
+    background: #e11a22;
+    color: white;
+    border: 0px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+.bigButton:hover {
+    color: black;
+}
+.chips {
+    background: #FFFCDC;
+    color: #D97904;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: 0px;
+    
+}
+.colorAddTab {
+}
+.colorAddTab:hover {
+    cursor: pointer;
+}
+.borderLeftRight {
+    border-style: none solid none solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+@media only screen and (max-width: 992px) {
+    .borderLeftRight {
+        border-style: none none none none;
+    }
+    .fontSizeCard {
+        font-size: 12px;
+        
+    }
+}
+/* scroll design */
+.scrollmenu {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 5px;
+  }
+  
+  /* .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .scrollmenu a:hover {
+    background-color: #777;
+  } */
+  .scrollmenu::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+  /* Track */
+  .scrollmenu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .scrollmenu::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .scrollmenu::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }

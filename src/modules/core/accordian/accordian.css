@@ -1,0 +1,79 @@
+
+    .customAcc{
+    width: auto;
+    height: max-content;
+    z-index: 50;
+    box-shadow: 0 0.6rem 1.5rem rgba(0,0,0,.175)!important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 14px 0px;
+    display: flex;
+    flex-direction: column;   
+    }
+    
+
+    .topDiv{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    }
+
+    .bottomInfo{
+    transition-duration: 177ms
+    }
+
+    .span-label-accordian{
+        font-size: 16px;
+        padding-left: 5px;
+        letter-spacing: 0.3px;
+        margin-top: 4px;
+        color: #606060 !important;
+    }
+    
+   
+
+    /* top icon */
+    .span-label-accordian{
+        z-index: 1;
+    }
+
+    span.iconHolder{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+    width: 100%;
+    }
+
+    span.iconHolder img.familyIcon  , span.iconHolder img{
+    position: absolute;
+    /* error  */
+    height: 40px;
+    z-index: 51;
+    padding: 0.5rem; 
+    margin: 4px 1rem;
+    }
+
+    span.iconHolder img.familyIcon {
+    left: 0px;
+
+    }
+
+    span.iconHolder img {
+    right: 0px;
+    }
+    span.iconHolder img {
+    right: 0px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out ;
+    }
+
+    span.iconHolder img.iconDown {
+    transform: rotate(180deg);  
+    }
+
+    span.iconHolder img:active{
+    background-color: rgb(134, 119, 228);
+    }
+

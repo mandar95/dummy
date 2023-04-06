@@ -1,0 +1,30 @@
+.buttonSuccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2fcf8;
+    border-radius: 20px;
+    padding: 4px 2px;
+}
+.pSuccess {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #04d384
+}
+.buttonDanger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffecec;
+    border-radius: 20px;
+    padding: 4px 0px;
+}
+.pDanger {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 10px;
+    color: #ed1c24;
+}

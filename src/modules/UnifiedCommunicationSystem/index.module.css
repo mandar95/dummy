@@ -1,0 +1,13 @@
+.linkButton {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    color: green;
+    background-color: white;
+    border: 0px;
+
+}
+.linkButton:hover {
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,177 @@
+.buttonStyle {
+    background-color: #5BE452;
+    border: 1px solid white;
+    border-radius: 30px ;
+    padding: 10px 15px;
+}
+/* .dataTableDiv {
+    border: 1px solid;
+    
+} */
+.legend {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    
+    letter-spacing: 1px;
+    background-color: white;
+    font-size: 13px;
+}
+.fildset {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+/* .selectHeight {
+    height: 50px;
+} */
+
+.minHeight > div {
+    min-height: 60px
+}
+
+.minHeight > div {
+    min-height: 50px;
+    border: 1px solid #cae9ff;
+}
+.minHeight > div:hover {
+    min-height: 50px;
+    border: 1px solid #cae9ff;
+}
+
+
+
+/* another css */
+.darkRedBack {
+    background: #e11a22;
+    color: white;
+  }
+  .darkRedBackTab {
+    position: relative;
+    background: #e11a22;
+    color: white;
+    border-radius: 30px;
+  }
+  /* .darkRedBackTab:hover {
+    cursor: pointer;
+  } */
+  .darkRed {
+      color: #e11a22;
+    }
+  .darkYellowBack {
+    background: #ffdf00;
+  }
+  .lightPinkBack {
+    background: #fffbef;
+  }
+  .pinkBack {
+    background: #fff3f4;
+  }
+  .graytext {
+    font-size: 12px;
+    color: gray;
+  }
+  .grayBack {
+      background: #f5f9fc;
+      border-radius: 10px;
+    }
+  .bold {
+    
+  }
+  .borderTopDashed {
+    border-top: 1px dashed pink;
+  }
+  .card {
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 5px 10px #ffcccb;
+    padding: 10px;
+  }
+  .cardHeading {
+  font-size: 18px;
+    
+    word-break: break-word;
+  }
+  .cardParagraph {
+    font-size: 10px;
+    color: gray;
+    
+    word-break: break-word;
+  }
+  .absolute {
+    background: #e11a22;
+    width: 80%;
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .cardPrice {
+    background: #fff3f4;
+    border-radius: 10px;
+  }
+  .tab {
+      position: relative;
+      border-radius: 30px;
+  }
+  .tab:hover {
+      /* cursor: pointer; */
+      background: #fff3f4;
+      color: black;
+      padding: 2px 10px;
+  }
+  .arrow {
+      position: absolute;
+      color: #e11a22;
+      bottom: -12px;
+      left: 44%;
+  }
+  .borderRadius {
+      border: 1px solid pink;
+      border-radius: 10px;
+  }
+  .proceedButton {
+      background: #e11a22;
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  .proceedButton:hover {
+      cursor: pointer;
+  }
+  .borderRight {
+    border-right: 1px solid lightgray;
+  }
+  .borderBottom {
+    border-bottom: 1px solid lightgrey;
+  }
+  @media only screen and (max-width: 1200px) {
+    .borderRight {
+      border-right: 0px;
+    }
+    .borderBottom {
+      border-bottom: 0px;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .tab {
+      float: right;
+    }
+  }
+  /* grid */
+  .site{  
+    display:grid;   
+    grid-auto-flow:column;  
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .site > *{
+    padding: 5px 30px; color:#fff; font-size:20px;
+  }

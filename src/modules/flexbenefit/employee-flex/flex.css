@@ -1,0 +1,60 @@
+._src_styles_module__cardHeading {
+    
+    word-break: break-word;
+    font-size: 115%;
+    letter-spacing: 1px;
+}
+
+._src_styles_module__absolute {
+    background: #e11a22;
+    width: 80%;
+    position: absolute;
+    top: -27px;
+    left: 10%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+._src_styles_module__absolute2 {
+    width: 58%;
+    position: absolute;
+    top: -54px;
+    left: 23%;
+    border-radius: 19px;
+    border: 1px dotted #e11a22;
+    background: rgb(255, 224, 226);
+    color: #e11a22 !important;
+}
+
+._src_styles_module__absolute_success{
+    border: 1px dotted #274b00 !important;
+    background: rgb(227, 255, 224) !important;
+    color: #274b00 !important;
+}
+
+
+._src_styles_module__cardParagraph {
+    font-size: 11px;
+    color: gray;
+    
+    word-break: break-word;
+}
+
+._src_styles_module__graytext {
+    font-size: 12px;
+    color: gray;
+    
+}
+
+._src_styles_module__bold {
+    
+    font-size: 105%;
+}
+
+._src_styles_module__cardPrice {
+    background: #fffbef;
+    border-radius: 10px;
+}
+
+._src_styles_module__borderTopDashed {
+    border-top: 1px dashed #e11a22;
+}

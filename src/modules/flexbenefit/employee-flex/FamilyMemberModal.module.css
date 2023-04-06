@@ -1,0 +1,40 @@
+.redColor {
+  font-size: 16px;
+}
+.redColor:hover {
+  cursor: pointer;
+  color: black;
+}
+.borderDashed {
+  border-bottom: 1px dashed lightgray;
+}
+
+/* .pinkBack {
+  background: #fff3f4;
+} */
+.borderRadius {
+  border-radius: 10px;
+}
+.borderDashedTop {
+  cursor: pointer;
+  border-top: 1px dashed lightgray;
+}
+.bigButton {
+  /* background: #e11a22; */
+  color: white;
+}
+/* .colorAddTab {
+} */
+.colorAddTab:hover {
+  cursor: pointer;
+}
+.borderLeftRight {
+  border-style: none solid none solid;
+  border-color: lightgrey;
+  border-width: 1px;
+}
+@media only screen and (max-width: 992px) {
+  .borderLeftRight {
+      border-style: none none none none;
+  }
+}

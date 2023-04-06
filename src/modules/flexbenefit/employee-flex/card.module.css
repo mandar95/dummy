@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.darkRedBack {
+  /* background: #e11a22; */
+  color: white;
+}
+.darkRedBackTab {
+  color: white;
+}
+.darkRedBackTab:hover {
+  cursor: pointer;
+}
+.darkRed {
+    /* color: #e11a22; */
+  }
+.darkYellowBack {
+  background: #ffdf00;
+}
+.lightPinkBack {
+  background: #fffbef;
+}
+.pinkBack {
+  background: #fff3f4;
+}
+.graytext {
+  font-size: 12px;
+  color: gray;
+}
+.grayBack {
+    background: #efefef;
+    border-radius: 10px;
+  }
+.bold {
+  
+}
+.borderTopDashed {
+  border-top: 1px dashed pink;
+}
+.card {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 5px 10px #d6d6d6;
+  padding: 10px;
+}
+.cardHeading {
+font-size: 18px;
+  
+  word-break: break-word;
+}
+.cardParagraph {
+  font-size: 10px;
+  color: gray;
+  
+  word-break: break-word;
+}
+.absolute {
+  background: #e11a22;
+  width: 80%;
+  position: absolute;
+  top: -20px;
+  left: 10%;
+  border-radius: 20px 20px 0px 0px;
+}
+.cardPrice {
+  background: #fff3f4;
+  border-radius: 10px;
+}
+.tab {
+    position: relative;
+}
+.tab:hover {
+    cursor: pointer;
+    background: #fff3f4;
+    color: black;
+}
+.arrow {
+    position: absolute;
+    bottom: -12px;
+    left: 46%;
+}
+.borderRadius {
+    border: 1px solid pink;
+    border-radius: 10px;
+}
+.proceedButton {
+    /* background: #e11a22; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.proceedButton:hover {
+    cursor: pointer;
+}
+.borderRight {
+  border-right: 1px solid lightgray;
+}
+.borderBottom {
+  border-bottom: 1px solid lightgrey;
+}
+@media only screen and (max-width: 1200px) {
+  .borderRight {
+    border-right: 0px;
+  }
+  .borderBottom {
+    border-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .tab {
+    float: right;
+  }
+}
+.summaryModalHeading{
+  font-size: 20px;
+  font-weight: 600;
+  word-break: break-word;
+}

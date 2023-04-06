@@ -1,0 +1,15 @@
+.welDiv{
+    /* display:none; */
+    display: flex !important;
+  margin: 15px 15px;
+}
+.removeNotifiction{
+  animation-name: example;
+  animation-duration: 1s;
+  display: flex !important;
+  margin: 15px 15px;
+}
+@keyframes example {
+  0%   {margin-top: 105px;}
+  100% {margin-top: 15px;}
+}

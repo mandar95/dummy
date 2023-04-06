@@ -1,0 +1,42 @@
+.buttonStyle {
+    background-color: #5BE452;
+    border: 1px solid white;
+    border-radius: 30px ;
+    padding: 10px 15px;
+}
+/* .dataTableDiv {
+    border: 1px solid;
+    
+} */
+.legend {
+    position: absolute;
+    top: -10px;
+    left: 45%;
+    z-index: 1;
+    margin: 0px auto;
+    
+    letter-spacing: 1px;
+    background-color: white;
+    font-size: 13px;
+}
+.fildset {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+/* .selectHeight {
+    height: 50px;
+} */
+
+.minHeight > div {
+    min-height: 60px
+}
+
+.minHeight > div {
+    min-height: 50px;
+    border: 1px solid #cae9ff;
+}
+.minHeight > div:hover {
+    min-height: 50px;
+    border: 1px solid #cae9ff;
+}

@@ -1,0 +1,15 @@
+export const resetFields = () => ({
+    relation: "",
+    first_name: "",
+    last_name: "",
+    dob: "",
+    dom: "",
+    member_email: "",
+    member_mob_no: 0,
+    buildingflat: "",
+    location: "",
+    street: "",
+    pincode: 0,
+    city: "",
+    state: "",
+})

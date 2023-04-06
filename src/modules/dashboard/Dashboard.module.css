@@ -1,0 +1,231 @@
+/* image upload section start */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  margin: auto;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  -webkit-filter: blur(50%);
+  filter: blur(50%);
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* image upload section end */
+.divHeight {
+  min-height: 229px;
+}
+.imageSize {
+  max-width: 50%;
+  height: auto;
+  /* display: inline-block; */
+}
+.dashedClass {
+  border-bottom: 2px dashed rgb(218, 218, 218, 0.4) ;
+}
+.dashedClass2 {
+  border-right: 2px dashed rgb(218, 218, 218, 0.4) ;
+}
+.dashedClass3 {
+  border-top: 2px dashed rgb(218, 218, 218, 0.4) ;
+}
+.cardBorder {
+  border-radius: 30px;
+}
+.grayBorder {
+  border-radius: 20px;
+}
+/* .grayBorder1 {
+    border-radius: 30px 0px 0px 30px;
+}
+.grayBorder2 {
+    border-radius: 0px 30px 30px 0px;
+} */
+.yellowButtonBorder {
+  border-radius: 0px 0px 30px 0px;
+}
+.newCardWidth {
+  width: 700px;
+}
+.divFixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+.relative {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 10px 15px pink;
+}
+.relativeDiv {
+  position: relative;
+  margin-bottom: 70px;
+}
+.buttonCartDiv {
+  position: absolute;
+  bottom: -40px;
+  right: -1px;
+  width: 200px;
+  height: 55px;
+  border-radius: 5px 0px 0px 0px;
+}
+.absolute {
+  position: absolute;
+  top: -40px;
+  right: 40px;
+  border-radius: 30px 10px 0px 0px;
+  border: 1px dashed gray;
+  background: lightgray;
+}
+.bottomDivDashedBorder {
+  border-top: 1px dashed lightgray;
+}
+
+.linerGradient {
+  border-radius: 10px;
+  width: 50%;
+  font-size: 12px;
+  
+  background-image: linear-gradient(to right, #fec200 10%, white 70%);
+}
+.linerGradient2 {
+  border-radius: 10px;
+  width: 20%;
+  margin: 15px 0px;
+  background-image: linear-gradient(to right, #edf4fa 10%, white 90%);
+}
+.secondHeading {
+  background-color: #fec200;
+  padding: 10px 0px;
+}
+.tabPointer {
+  font-size: 12px;
+  
+  letter-spacing: 1px;
+  padding: 5px 100px;
+  cursor: pointer;
+}
+.cardDivFlex {
+  display: flex;
+}
+/* masonry */
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+@media (max-width: 1000px) {
+  .tabPointer {
+    font-size: 12px;
+    
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 800px) {
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .linerGradient {
+    width: 100%;  
+    background-image: linear-gradient(to right, #fec200 10%, white 60%);
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .cardDivFlex {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonCartDiv {
+    position: absolute;
+    bottom: -50px;
+    right: -1px;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px 0px 0px 0px;
+  }
+  .tabPointer {
+    font-size: 12px;
+    
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+}
+.shadowRed {
+  box-shadow: 0px 0px 20px #ffcccb;
+}
+/* .modalborder {
+  border-radius: 30px;
+} */
+.special_modal .modal-content{
+  background-color: #000;
+  color: #fff;
+}
+
+.custom_col{
+  padding: 0 30px 25px 35px !important;
+}
+
+.summary_row {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom_col{
+    padding: 0px 20px 13px 30px !important;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .divHeight {
+    min-height: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .custom_col{
+    padding: 0px 0 8px 8px !important;
+  }
+  .summary_row {
+    margin-left: -0.9rem;
+    margin-right: 0.5rem;
+  }
+}

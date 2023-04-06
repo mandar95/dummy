@@ -1,0 +1,13 @@
+.checkbox {
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .borderRounded {
+    border-radius: 10px;
+  }
+  .checkbox input {
+    visibility: hidden;
+    position: absolute;
+    left: -100vh;
+  }

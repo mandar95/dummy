@@ -1,0 +1,14 @@
+.legend {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    z-index: 1;
+    margin: 0px auto;
+    
+    letter-spacing: 1px;
+    background-color: white;
+    font-size: 13px;
+}
+.fildset {
+    position: relative;
+}

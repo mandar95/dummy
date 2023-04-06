@@ -1,0 +1,149 @@
+/* type 1 card start */
+.cardBody {
+    background-color: white;
+    /* border-radius: 10px;
+    border: 1px solid lightgrey; */
+    border-right: 1px solid lightgrey;
+    padding: 1px 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* box-shadow: 0px 5px 5px lightgrey; */
+    width: 100%;
+}
+.cardBody:hover {
+    cursor: pointer;
+}
+.iconBox {
+    border-radius: 50%;
+    background-color: blue;
+    padding: 5px;
+}
+.bgYellow {
+    background-color: #fbb541;
+}
+.bgSkyblue {
+    background-color: #00c1ff;
+}
+.bgPurple {
+    background-color: #8820cf;
+}
+.bgDarkpink {
+    background-color: #ff00ff;
+}
+.bgGreen {
+    background-color: #00c87b;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.textBox {
+    margin: 0px 10px;
+    width: 100%;
+}
+.text {
+    margin: 0px;
+    padding: 0px;
+    color: grey;
+    font-size: 11px;
+}
+.title {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    margin-left: 2px;
+}
+.customSelect {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border: 0px;
+}
+.filterIconBox {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0px 2px;
+    margin: 0px 5px;
+}
+.filterIconBox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    padding: 2px 3px;
+    margin: 0px 5px;
+}
+.filterIconBoxButton {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 0px 20px;
+    margin: 0px;
+}
+.filterIconBox:hover {
+    cursor: pointer;
+}
+.filterIcon {
+    margin: 3px 5px;
+    height: 15px;
+}
+.filterIcon2 {
+    margin: 0px 5px; 
+    height: 15px;
+}
+/* type 1 card end */
+
+/* type 2 card start */
+.cardBody2 {
+    background-color: white;
+    /* border-radius: 10px;
+    border: 1px solid lightgrey; */
+    border-left: 1px solid lightgrey;
+    /* padding: 10px 0px;
+    margin: 10px 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 5px 5px lightgrey; */
+    width: 100%;
+}
+.cardBody2:hover {
+    cursor: pointer;
+}
+.textBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+}
+.textBox3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+}
+.title2 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    margin-left: 2px;
+}
+.text2 {
+    margin: 0px 5px;
+    padding: 0px;
+    color: grey;
+    font-size: 11px;
+}
+/* type 2 card end */

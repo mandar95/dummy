@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+  .rowButton {
+    display: flex;
+    padding-left: 0 !important;
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+    max-width: 400px;
+  }
+  .col-button {
+    margin-left: 0 !important;
+  }
+}
+
+.rowButton {
+  margin-right: -28px !important;
+  margin-left: -28px !important;
+}
+@media only screen and (max-width: 600px) {
+  .rowButtonEven {
+    display: flex;
+    padding-left: 0 !important;
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+    max-width: 400px;
+    justify-content: flex-start;
+  }
+}
+.rowButtonEven {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}

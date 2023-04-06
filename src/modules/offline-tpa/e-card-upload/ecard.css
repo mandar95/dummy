@@ -1,0 +1,21 @@
+/* .swal-modal{
+    width: 710px !important;
+}
+
+.swal-content{
+    padding: 0 45px !important;
+}
+/* .table-responsive{
+    height:305px !important;
+} */
+
+
+/* @media screen and (max-width: 500px) {
+    .swal-modal{
+        width:  calc(100% - 20px) !important;
+    }
+  }  */
+
+.mytable .table-responsive{
+    margin:0 !important
+}

@@ -1,0 +1,205 @@
+.divRelativeForm {
+    position: relative;
+}
+.divWidth {
+    max-width: 500px;
+    height: auto;
+  }
+
+
+
+.textOverFlow {
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    font-size: 14px;
+    color: #464646;
+    overflow: hidden;
+  	height: max-content !important;
+  	text-overflow: ellipsis;
+  	display: -webkit-box;
+  	-webkit-line-clamp: 1;
+  	-webkit-box-orient: vertical;
+}
+.absoluteSubmitButton {
+    position: absolute;
+    bottom: -53px;
+    right: 20px;
+}
+.card {
+    /* overflow: hidden; */
+    border-radius: 20px;
+}
+.redColor {
+    color: #e11a22;
+}
+.fontSize {
+    font-size: 16px;
+    
+}
+.redBackColor {
+    background: #e11a22;
+    font-size: 16px;
+    color: white
+}
+/* .redColor:hover {
+    cursor: pointer;
+    color: black;
+} */
+.flagborder {
+    border-radius: 0px 10px 0px 0px;
+    
+    max-width: 300px;
+}
+.flagborder_radius{
+    border-radius: 10px 10px 0px 0px;
+}
+.pinkBack {
+    background: #fff3f4;
+    border-radius: 5px;
+    
+  }
+.pinkBackDiv {
+    background: #fff3f4;
+    border-radius: 20px;
+
+}
+.bigButton {
+    background: #e11a22;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 20px;
+    font-size: 18px;
+    
+}
+.bigButton2 {
+    background: lightgray;
+    color: black;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 20px;
+    
+}
+.bigButtonPink {
+    background: #fff3f4;
+    color: #e11a22;
+    border-radius: 10px;
+    border: 1px solid #e11a22;
+    padding: 10px 20px;
+    font-size: 18px;
+    
+}
+.backPink {
+    background: #fff3f4;
+    border-radius: 10px;
+}
+.avatar {
+    border-radius: 10px;
+    min-width: 99px;
+}
+.grayBack {
+    background: #f5f9fc;
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px 20px;
+    /* letter-spacing: 1px; */
+    font-size: 16px;
+    
+  }
+  .grayBackTable {
+    background: #f5f9fc;
+    border-radius: 10px;
+  }
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+.labelContainer input:checked ~ .checkmark {
+    background-color: #e11a22;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the indicator (dot/circle) when checked */
+.labelcontainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .labelcontainer .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  .controlImage {
+      height: 300px;
+  }
+/* used */
+.borderDashed {
+    border-bottom: 1px dashed lightgray;
+}
+
+.pinkBack {
+    background: #fff3f4;
+  }
+.borderRadius {
+    border-radius: 10px;
+}
+.borderDashedTop {
+    border-top: 1px dashed lightgray;
+}
+/* .colorAddTab {
+}
+.colorAddTab:hover {
+    cursor: pointer;
+} */
+.borderLeftRight {
+    border-style: none solid none solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+.autoscroll {
+    width: 100%;
+    overflow-x: hidden; /* Add the ability to scroll */
+    overflow-y: auto;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .autoscroll::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .autoscroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  @media only screen and (max-width: 600px) {
+    .avatar {
+        border-radius: 10px;
+        min-width: 150px;
+    }
+    .textOverFlow {
+        -webkit-line-clamp: 2;
+    }
+  }
